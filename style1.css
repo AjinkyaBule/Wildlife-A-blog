@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(252, 187, 8);
+}
+.wildlife{
+    display: flexbox;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+img{
+    width: 450px;
+    height: 300;
+    margin: 10px;
+    transition: all 1s;
+}
+
+h1{
+    text-transform: uppercase;
+    font-family:"Arial Narrow Bold";
+    font-size: 3em;
+    border-bottom: 5px solid rgb(231, 80, 10);
+    width: 500px;
+    text-align: center;
+    box-shadow: 4px 4px 5px gray;
+ 
+}
+
+img:hover{
+    transform: scale(1.1);
+}
